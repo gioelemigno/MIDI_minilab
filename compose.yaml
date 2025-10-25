@@ -1,0 +1,17 @@
+services:
+  fluidsynth:
+    build: .
+    container_name: fluidsynth
+    environment:
+      - PULSE_SERVER=unix:/run/user/1000/pulse/native
+    volumes:
+      # Mount PulseAudio socket from the host
+      - /run/user/1000/pulse:/run/user/1000/pulse
+      # Mount sound devices
+      - /dev/snd:/dev/snd
+      # Optional: mount your project directory
+      #- .:/app
+    devices:
+      - /dev/snd
+    tty: true
+    stdin_open: true
