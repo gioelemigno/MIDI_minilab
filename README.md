@@ -75,4 +75,9 @@ bash connect_minilab_3.sh
 ## REFERENCES
 - https://jereme.me/posts/raspberry-pi-midi-sound-module/
 
+## TO BE INTEGRATED
+- https://github.com/gbevin/ReceiveMIDI
+- https://github.com/gbevin/ShowMIDI
+- https://github.com/gbevin/SendMIDI
+- https://github.com/knectardev/midi_strudel_dash (see https://strudel.cc/learn/input-output/)
 
