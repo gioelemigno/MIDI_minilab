@@ -13,7 +13,14 @@ RUN apt-get update &&\
     xargs -a packages.apt apt-get install -y
 
 WORKDIR /app
+
+COPY receivemidi ./receivemidi
+RUN cd receivemidi &&\
+    bash install.sh
+
 COPY connect_minilab_3.sh ./
+
+
 CMD ["bash"]
 
 
