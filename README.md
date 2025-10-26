@@ -80,4 +80,4 @@ bash connect_minilab_3.sh
 - [ ] https://github.com/gbevin/ShowMIDI
 - [ ] https://github.com/gbevin/SendMIDI
 - [ ] https://github.com/knectardev/midi_strudel_dash (see https://strudel.cc/learn/input-output/)
-
+- [ ] QMidiRoute (Ref: https://forums.raspberrypi.com/viewtopic.php?t=290738)
