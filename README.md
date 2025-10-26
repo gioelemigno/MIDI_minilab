@@ -8,7 +8,7 @@ docker compose up
 ## CONNECT MIDI KEYBOARD
 Connect to the running container with:
 ```bash
-docker exec -it fluidsynth bash
+docker exec -it midi_minilab bash
 ```
 
 Start fluidsynth with:
@@ -37,7 +37,7 @@ noteon 1 60 100
 Now we need to connect `fluidsynth` with the MIDI keyboard.
 Open another terminal inside the container:
 ```bash
-docker exec -it fluidsynth bash
+docker exec -it midi_minilab bash
 ```
 
 We first run the following command to get clients' ids:
@@ -68,7 +68,7 @@ Now the MIDI keyboard should produce sound.
 
 The previous procedure is automatized by:
 ```bash
-docker exec -it fluidsynth bash
+docker exec -it midi_minilab bash
 bash connect_minilab_3.sh
 ```
 
@@ -76,7 +76,7 @@ bash connect_minilab_3.sh
 - https://jereme.me/posts/raspberry-pi-midi-sound-module/
 
 ## TO BE INTEGRATED
-- [ ] https://github.com/gbevin/ReceiveMIDI
+- [x] https://github.com/gbevin/ReceiveMIDI
 - [ ] https://github.com/gbevin/ShowMIDI
 - [ ] https://github.com/gbevin/SendMIDI
 - [ ] https://github.com/knectardev/midi_strudel_dash (see https://strudel.cc/learn/input-output/)

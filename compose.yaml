@@ -1,7 +1,7 @@
 services:
-  fluidsynth:
+  midi_minilab:
     build: .
-    container_name: fluidsynth
+    container_name: midi_minilab
     environment:
       - PULSE_SERVER=unix:/run/user/1000/pulse/native
     volumes:
