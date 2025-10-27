@@ -82,3 +82,4 @@ bash connect_minilab_3.sh
 - [ ] https://github.com/knectardev/midi_strudel_dash (see https://strudel.cc/learn/input-output/)
 - [ ] QMidiRoute (Ref: https://forums.raspberrypi.com/viewtopic.php?t=290738)
 - [ ] https://github.com/ad-si/awesome-soundfonts
+- [ ] https://github.com/soyersoyer/sysex-controls
